@@ -1,9 +1,11 @@
 import AppBar from "./app-bar/app-bar"
+import Hero from "../hero/Hero"
 
 const Header = () => {
     return (
-        <header className="bg-zinc-800 min-h-screen">
+        <header className="">
             <AppBar />
+            <Hero />
         </header>
     )
 }
