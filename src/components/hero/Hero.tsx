@@ -9,7 +9,7 @@ import { Button } from "../ui/button"
 import { HeaderSlidesData } from "@/data/data"
 
 const Slides = HeaderSlidesData.map(slide => (
-    <CarouselItem className="grid grid-cols-1 sm:grid-cols-2">
+    <CarouselItem className="grid grid-cols-1 md:grid-cols-2">
         <div className="relative">
             <picture>
                 <source srcSet={slide.image.desktop.src} media="(min-width: 600px)" />

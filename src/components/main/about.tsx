@@ -3,7 +3,7 @@ import AboutLight from "/about/image-about-light.jpg"
 
 const About = () => {
     return (
-        <div className="grid grid-cols-1 xl:grid-cols-[1fr_auto]">
+        <div className="grid grid-cols-1 xl:grid-cols-[1fr_auto] h-full">
             <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] space-y-4 ">
                 <img src={AboutDark} alt="about page" className="w-full h-full md:max-w-sm" aria-hidden />
                 <article className=" p-8 space-y-6">

@@ -19,7 +19,7 @@ const MobileNav = () => {
                 <Menu size={28} aria-hidden={true} />
                 <span className="sr-only">Open menu</span>
             </DrawerTrigger>
-            <DrawerContent className="fixed -top-24 bottom-auto max-h-[80vh] rounded-none sm:hidden" >
+            <DrawerContent className="fixed -top-24 bottom-auto max-h-[80vh] rounded-none xl:hidden" >
                 <DrawerHeader className="px-4 flex items-center gap-8">
                     <button onClick={close} className="p-4" aria-label="close menu">
                         <X aria-hidden={true} />
