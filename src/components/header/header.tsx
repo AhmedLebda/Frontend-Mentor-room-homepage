@@ -3,7 +3,7 @@ import Hero from "../hero/Hero"
 
 const Header = () => {
     return (
-        <header className="">
+        <header>
             <AppBar />
             <Hero />
         </header>

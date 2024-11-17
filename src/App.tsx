@@ -1,9 +1,13 @@
 import Header from "./components/header/header"
+import About from "./components/main/about"
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <main>
+        <About />
+      </main>
+    </>
   )
 }
 
